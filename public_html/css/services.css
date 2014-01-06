@@ -116,6 +116,7 @@
 }
 #process .description{
 	position: relative;
+        float: right;
 }
 #process .description .text{
 	position: absolute;
@@ -137,7 +138,7 @@
 }
 #process .areas{
 	margin-left: 0;
-	float: right;
+	float: left;
 }
 #process .areas .circle{
 	height: 210px;
