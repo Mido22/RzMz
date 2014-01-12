@@ -147,7 +147,8 @@
 	margin-right: -45px;
 	text-align: center;
 	width: 210px;
-	background: rgba(37, 37, 40, 0.9);
+        background-image: url('img/ale.png');
+        background-color:#cccccc;
 	border-radius: 100%;
 	-webkit-transition: all .3s;
 	-moz-transition: all .3s;
