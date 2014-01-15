@@ -16,11 +16,23 @@
  * Contributing author: Tyler Smith (@mbmufffin)
  */
 
-;(function ($) {
-            $(function() {
-                //alert("Hash Using JQuery : " + window.location.hash);
-  $(window.location.hash).prev().children(".accordion-toggle").click();
-                
-                //$(window.location.hash).children()parent(window.location.hash).click();
-            });
+;
+(function($) {
+    $(function() {
+        //alert("Hash Using JQuery : " + window.location.hash);
+        //     $(window.location.hash).prev().children(".accordion-toggle").click();
+
+        $(window.location.hash).siblings(".accordion-heading").children(".accordion-toggle").click();
+
+        window.onhashchange = function() {
+            $(window.location.hash).siblings(".accordion-heading").children(".accordion-toggle").click();
+        }
+// Since the event is only triggered when the hash changes, we need to trigger
+// the event now, to handle the hash the page may have loaded with.
+
+    });
+
+
+
+
 })(jQuery);
