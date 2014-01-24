@@ -111,7 +111,8 @@
     text-align: center;
 }
 .slide#ideas .info h2 {
-    color: #fff;
+    color: #996633;
+    font-size: 50px;
     font-weight: normal;
 }
 
@@ -124,7 +125,7 @@
 }
 .slide#tour .info h2 {
     color: #fff;
-    font-size: 45px;
+    font-size: 50px;
     font-weight: normal;
     text-shadow: 1px 1px 1px #3b3262;
     line-height: 57px;
@@ -153,7 +154,7 @@
 }
 .slide#responsive .info h2 {
     color: #fff;
-    font-size: 47px;
+    font-size: 50px;
     font-weight: normal;
     text-shadow: 1px 1px 1px #3b3262;
     line-height: 56px;
