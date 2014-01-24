@@ -1,6 +1,9 @@
 html {
 	margin: 0;
 }
+#navBar14{
+float: right;
+}
 body {
 	position: relative;
 	background: #DDDCE2 url(../img/body_bg.jpg) repeat left top;
